@@ -1,0 +1,17 @@
+      hi
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/cart" element={<Cart />}></Route>
+        <Route path="/product/:productId" element={<Product />}></Route>
+        <Route path="/orders" element={<Orders />}></Route>
+      </Routes>
+
+
+
+<img src={assets.icons.wishlist} className="w-6" />
+<img src={assets.icons.cart} className="w-6" />
+<img src={assets.icons.profile} className="w-6" />
+
+to={`/product/${id}`}
+
+max-w-screen-
