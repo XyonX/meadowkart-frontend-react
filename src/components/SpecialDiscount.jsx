@@ -2,7 +2,7 @@ import React from "react";
 
 const SpecialDiscount = ({ image, t1, t2 }) => {
   return (
-    <div className="flex flex-col items-center gap-4 p-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+    <div className="flex flex-col items-center gap-4 p-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow ">
       {/* Image */}
       <div className="w-16 h-16 flex items-center justify-center bg-gray-100 rounded-full">
         <img src={image} className="w-10 h-10 object-contain" />

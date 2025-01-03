@@ -10,7 +10,7 @@ import { assets } from "@/assets/assets";
 
 const Slider = () => {
   return (
-    <div className="mt-10 p-5 md:p-0 cursor-pointer">
+    <div className="mt-10 p-2 md:p-0 cursor-pointer">
       <Carousel>
         <CarouselContent>
           <CarouselItem>

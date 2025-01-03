@@ -12,7 +12,7 @@ const FeaturedProducts = () => {
           </p>
         </div>
         {/**Rendering products */}
-        <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-4 gap-y-6">
+        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-4 gap-y-6">
           {products.map((item, index) => (
             <ProductItem
               id={item.id}
